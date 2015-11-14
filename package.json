@@ -1,0 +1,24 @@
+{
+  "name": "bang",
+  "version": "1.0.0",
+  "description": "Bang is an acronim of Browserify, Angular, Node and Gulp.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bartw/Bang.git"
+  },
+  "author": "Bart Wijnants",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bartw/Bang/issues"
+  },
+  "homepage": "https://github.com/bartw/Bang#readme",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-connect": "^2.2.0",
+    "gulp-less": "^3.0.5"
+  }
+}
