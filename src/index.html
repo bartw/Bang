@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app="bang">
 <head>
 	<meta charset="utf-8">
 	<title>Bang</title>
@@ -9,5 +9,9 @@
 		<h1>Bang</h1>
 		<p>Bang is an acronim of Browserify, Angular, Node and Gulp.</p>
 	</div>
+	<div ng-controller="SampleController as sample">
+		<p>{{sample.color}}</p>
+	</div>	
+    <script src="./app/app.js"></script>
 </body>
 </html>

@@ -9,6 +9,7 @@ I don't make this stuff up. Mostly I just copy it from other websites like the o
 below.
 
 - http://omarfouad.com/blog/2015/03/21/advanced-angularjs-structure-with-gulp-node-and-browserify/
+- http://mherman.org/blog/2014/08/15/kickstarting-angular-with-gulp-and-browserify-part-2/
 
 ## Let's get started
 
@@ -30,13 +31,13 @@ var connect = require("gulp-connect")
 
 gulp.task("connect", function () {
     connect.server({
-        root: "app/",
+        root: "src/",
         port: 8888
     })
 })
 ```
 
-- Create a folder app with an index.html
+- Create a folder src with an index.html
 
 ```html
 <!DOCTYPE html>
@@ -55,3 +56,13 @@ gulp.task("connect", function () {
 ```
 
 - Run gulp connect and browse to http://localhost:8888/
+
+## Browserify
+
+npm install --save-dev run-sequence
+npm install --save-dev gulp-rimraf
+npm install --save-dev browserify
+npm install --save-dev watchify
+npm install --save-dev vinyl-source-stream
+npm install --save angular
+bang.module.js
